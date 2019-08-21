@@ -1,0 +1,24 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/blog_joaz?useUnicode=true&characterEncoding=utf8&useSSL=false&autoReconnect=true&rewriteBatchedStatements=TRUE&serverTimezone=GMT
+    username: root
+    password: hz377924
+    druid:
+      stat-view-servlet:
+        enabled: true
+        url-pattern: /druid/*
+      #                login-username: admin
+      #                login-password: admin
+      filter:
+        stat:
+          log-slow-sql: true
+          slow-sql-millis: 1000
+          merge-sql: false
+        wall:
+          config:
+            multi-statement-allow: true
+
+
+mybatis-plus:
+  global-config:
+    refresh: true
