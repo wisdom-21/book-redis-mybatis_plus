@@ -18,7 +18,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
         <druid-spring-boot-starter>1.1.10</druid-spring-boot-starter>
-        <mysql-connector-java>8.0.11</mysql-connector-java>
+        <mysql-connector-java>8.0.16</mysql-connector-java>
         <mybaits-plus-boot-starter>3.0.4</mybaits-plus-boot-starter>
         <fastjson>1.2.45</fastjson>
         <swagger>2.7.0</swagger>
