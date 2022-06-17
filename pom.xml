@@ -20,7 +20,7 @@
         <druid-spring-boot-starter>1.1.10</druid-spring-boot-starter>
         <mysql-connector-java>8.0.11</mysql-connector-java>
         <mybaits-plus-boot-starter>3.0.4</mybaits-plus-boot-starter>
-        <fastjson>1.2.45</fastjson>
+        <fastjson>1.2.83</fastjson>
         <swagger>2.7.0</swagger>
         <pagehelper>1.2.5</pagehelper>
     </properties>
